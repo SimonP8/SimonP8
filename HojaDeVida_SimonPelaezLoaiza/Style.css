@@ -1,0 +1,62 @@
+body{
+    font-family: 'Verdana';
+    font-size: larger;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0 px;
+    top: 0 px;
+    background: url(Imagenes/image\ 1.png);
+    background-size: cover;
+    color: white;
+}
+
+.Cabecera{
+position: absolute;
+size: 30px;
+width: 400px;
+height: 73px;
+left: 600px;
+top: 100px;
+background: rgba(196, 196, 196, 0.15);
+border-radius: 40px;
+}
+
+.fotografia{
+    position: absolute;
+    border-radius: 1000%;
+    width: 250px;
+    height: 250px;
+    left: 200px;
+    top: 20px;
+}
+
+.Formacion{
+position: absolute;
+width: 470px;
+height: 400px;
+left: 120px;
+top: 300px;
+background: rgba(196, 196, 196, 0.15);
+border-radius: 40px;
+}
+.Estudios{
+position: absolute;
+width: 609px;
+height: 449px;
+left: 638px;
+top: 300px;
+
+background: rgba(196, 196, 196, 0.15);
+border-radius: 62px;
+}
+
+.Cisco{
+    padding-left: 30px;
+}
+.java{
+    padding-left:55px;
+}
+.Book{
+    padding-left: 80px;
+}
