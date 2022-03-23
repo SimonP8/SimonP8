@@ -1,0 +1,32 @@
+body{
+    background: url(cropped-1366-768-641426.png);
+   font-family:'Trebuchet MS' ;
+   
+}
+h2{
+    align-items: center;
+}
+.Sopa{
+    position: absolute;
+    font-size: 30px;
+    left: 40%;
+  
+}
+
+th{
+    border-style:outset;
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.Palabras{
+    position:   absolute;
+    left: 20%;
+    top: 30%;
+
+}
+.Letra{
+    background-color: yellow;
+}
