@@ -1,0 +1,81 @@
+.container {  display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    justify-items: center;
+    align-items: stretch;
+    grid-template-areas:
+      "Encabezado"
+      "Miniaturas"
+      "Descripcion"
+      "Acciones"
+      "Estados";
+  }
+  .Fotografia{
+      width: 100%;
+      border: 35px;
+  }
+  .MiniFoto{
+      width: 19%;
+
+  }
+  .Minis{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+
+  }
+  .Columnas{
+      display:flex;
+      flex-direction: row;
+      justify-content:center;
+      flex-wrap: nowrap;
+  }
+  
+p{
+margin: 10px;
+}
+.Botones{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
+.btn{
+    background-color:white;
+    margin: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.Iconos{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width:100%;
+
+}
+.Iconos span{
+    margin: 5px;
+    padding: 5px;
+    background-color: bisque;
+}
+
+
+  .Encabezado { grid-area: Encabezado;
+background-color: blue; }
+  
+  .Miniaturas { grid-area: Miniaturas;
+background-color: yellow; }
+  
+  .Descripcion { grid-area: Descripcion; 
+background-color: grey;}
+  
+  .Acciones { grid-area: Acciones; 
+background-color:aquamarine}
+  
+  .Estados { grid-area: Estados;
+background-color: brown; }
+  
