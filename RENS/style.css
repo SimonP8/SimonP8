@@ -1,0 +1,50 @@
+
+body{
+  margin: 0%;
+}
+  /* Estilos del encabezado */
+  
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+
+  }
+   a {
+      text-decoration: none;
+      font-family: 'Helvetica';
+      font-style: unset;
+      font-size: 15px;
+      line-height: 23px;
+    /* identical to box height */
+      color: #000814;
+  }
+  
+  h1 {
+      font-family: 'TimesNewRomanMT-Condensed';
+      font-style: normal;
+      font-size: 100px;
+      margin:1px;
+      cursor: default;
+      /* identical to box height */
+      color: #000814;
+  }
+ 
+  img{
+   width: 100%;
+   height: auto;
+
+  }
+  /* Estilos del pie de página */
+  
+  footer {
+    background-color:white;
+    font-family: 'Helvetica';
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
